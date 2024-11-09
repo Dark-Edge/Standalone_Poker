@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker NUI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+    <div id="poker-game" class="hidden">
+		<div id="game"> 
+			<h1>Texas Hold'em Poker</h1>
+		
+			<div id="game-info">
+				<p>Mise précédente : <span id="current-bet">0</span></p>
+				<p>Pot : <span id="pot-amount">0</span></p>
+			</div>
+
+			<div id="community-cards">
+				<h2>Cartes Communes</h2>
+				<div id="community-card-container"></div>
+			</div>
+
+			<div id="player-cards">
+				<h2>Vos Cartes</h2>
+				<div id="player-card-container"></div>
+			</div>
+
+			<div id="actions">
+				<input type="number" onclick="UpdateRaiseAmount()" onkeypress="UpdateRaiseAmount()" onkeyup="UpdateRaiseAmount()" onkeydown="UpdateRaiseAmount()" id="bet-amount" placeholder="1" value="1" min="1" max="100">
+				<button id="call" onclick="playerAction('call')">Suivre</button>
+				<button id="raise" onclick="raise()">Relancer (5+1)</button>
+				<button onclick="playerAction('fold')">Se Coucher</button>
+				<button onclick="playerAction('quit')">Quitter</button>
+			</div>
+		</div>
+	</div>
+    <script src="app.js"></script>
+</body>
+</html>
