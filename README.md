@@ -13,7 +13,7 @@ There is no rules implemented yet so it's only for RolePlay but i'm gonna add it
 
 # INSTALLATION :
 
-Add “Poker” in your server.cfg
+Add “ensure Standalone_Poker” in your server.cfg
 
 # IN GAME :
 
@@ -22,11 +22,12 @@ you can use admin console commands “/startpoker” to start a game.
 it includes buttons to call / raise or fold or leave the game.
 It's an early script and i can't test it multiplayer but it's scripted to sync UI to all current players.
 
-![](https://img.youtube.com/vi/o5daMYcmPSE/maxresdefault.jpg "Vorp_cleangun rework V1.2")
+![image](https://github.com/user-attachments/assets/019cc2ba-5bd9-4882-a876-514ac48efbbb)
+
 
 [ Vorp_cleangun rework V1.2 ](https://www.youtube.com/watch?v=o5daMYcmPSE)
 
-Download : [GitHub - Dark-Edge/vorp_cleangun: cleaning gun with inspect script ](https://github.com/Dark-Edge/vorp_cleangun)
+Download : [GitHub - Dark-Edge/vorp_cleangun: cleaning gun with inspect script ](https://github.com/Dark-Edge/Standalone_Poker)
 
 # UPDATES :
 
