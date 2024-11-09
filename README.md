@@ -25,7 +25,7 @@ It's an early script and i can't test it multiplayer but it's scripted to sync U
 ![image](https://github.com/user-attachments/assets/019cc2ba-5bd9-4882-a876-514ac48efbbb)
 
 
-[ Standalone Poker Script ](https://www.youtube.com/watch?v=o5daMYcmPSE)
+[ Standalone Poker Script ](https://www.youtube.com/watch?v=BgFcKQEgl9Y)
 
 Download : [GitHub - Dark-Edge/Standalone Poker Script: play Poker on your server](https://github.com/Dark-Edge/Standalone_Poker)
 
