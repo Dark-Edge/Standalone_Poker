@@ -13,7 +13,7 @@ client_scripts {
     'client/client.lua',
 }
 
-ui_page 'html/index.html'
+ui_page 'ui/index.html'
 
 files {
     'ui/index.html',
